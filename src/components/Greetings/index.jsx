@@ -1,4 +1,4 @@
-import Typed from "react-typed";
+import Typed from 'react-typed';
 
 import styles from './styles.module.scss';
 
