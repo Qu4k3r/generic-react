@@ -25,7 +25,12 @@ header {
         text-decoration: none;
 
         &:hover {
-          color: blue;
+          color: rgb(0, 132, 240);
+          text-decoration: underline;
+        }
+
+        &:visited {
+          text-decoration: none;
         }
       }
     }

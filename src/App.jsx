@@ -5,16 +5,22 @@ import particlesJson from './utils/particlesjs-config.json';
 
 import './App.scss';
 import Header from './components/Header';
+import About from './components/About';
 
 export default function App() {
   return (
-    <main className="App">
-      <Header />
-      <Particles
-        className="particles"
-        params={ particlesJson }
-      />
-      <Greetings />
+    <main>
+      <section className="App">
+        <Header />
+        <Particles
+          className="particles"
+          params={ particlesJson }
+        />
+        <Greetings />
+      </section>
+      <section>
+        <About />
+      </section>
     </main>
   );
 }
