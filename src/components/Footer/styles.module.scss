@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  font-size: 1.2rem;
+  color: aliceblue;
+  height: 5vh;
+  background-color: rgb(5, 35, 94);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+
+
+  .reactIcon {
+    vertical-align: bottom;
+    font-size: 0.9rem;
+  }
+
+  span {
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      outline: none;
+
+      .contact {
+        font-size: 1.55rem;
+        color: aliceblue;
+      }
+    }
+  }
+
+  .teste {
+    flex-grow: 1;
+
+    div {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+}
