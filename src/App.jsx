@@ -3,9 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.scss';
 import Header from './components/Header';
-import About from './pages/About';
+import About from './Pages/About';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import Home from './Pages/Home';
 
 export default function App() {
   return (
