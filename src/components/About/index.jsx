@@ -1,15 +1,33 @@
+import React from 'react';
+
 import styles from './styles.module.scss';
 
 export default function About() {
   return (
-    <section className={ styles.aboutContainer }>
-      <h1>Um pouco sobre mim</h1>
+    <section className={styles.aboutContainer}>
 
-      <div id="about">
+      <div className={styles.about}>
+        <h1>Um pouco sobre mim</h1>
+
         <p>
-          Sou de Brasília, Distrito Federal. Tenho 26 anos e sou apaixonado por tecnologia, principalmente segurança da informação (Web). Atualmente, faço um curso de Desenvolvimento de Software Full Stack na Trybe, mas já possuo certificado de Desenvolvedor Front End.
-          Aqui, você pode verificar minhas principais competências e alguns de meus trabalhos realizados ao longo do curso. Para mais informações, dúvidas ou contratação de serviços, deixo meu contato logo abaixo. Obrigado!
+          Sou de Brasília, Distrito Federal.
+          Sou apaixonado por tecnologia, principalmente
+          <b> segurança da informação (Web)</b>
+          .
         </p>
+
+        <p>
+          Atualmente, sou Desenvolvedor de Software Full Stack formado pela Trybe (curso livre).
+          Previsão de término: Novembro de 2021.
+        </p>
+
+        <p>
+          Fique à vontade para olhar alguns de meus trabalhos realizados durante o curso.
+        </p>
+      </div>
+
+      <div className={styles.aboutMePicture}>
+        <img src="/images/about-me.jpeg" alt="" />
       </div>
     </section>
   );

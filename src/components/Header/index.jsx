@@ -1,10 +1,11 @@
+import React from 'react';
 import './styles.module.scss';
 
 export default function Header() {
-  return(
+  return (
     <header>
       <div>
-        <img src="/its-me.jpg" alt="It's me! Lucas Neves" />
+        <img src="/images/its-me.jpg" alt="It's me! Lucas Neves" />
       </div>
       <nav>
         <ul>
