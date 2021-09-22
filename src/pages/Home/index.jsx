@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import Greetings from '../Greetings';
+import Greetings from '../../components/Greetings';
 
 import particlesJson from '../../utils/particlesjs-config.json';
 
