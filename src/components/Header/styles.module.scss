@@ -8,30 +8,22 @@ header {
   top: 0;
   width: 100vw;
 
-  img {
-    height: 100%;
-    width: 6rem;
-  }
-
   ul {
     list-style-type: none;
     display: flex;
 
+    :link  {
+      text-decoration: none;
+    }
+
     li {
-      a {
-        color: aliceblue;
-        font-size: 1.4rem;
-        margin: 0 1rem;
-        text-decoration: none;
+      color: aliceblue;
+      font-size: 1.4rem;
+      margin: 0 1rem;
 
-        &:hover {
-          color: rgb(0, 132, 240);
-          text-decoration: underline;
-        }
-
-        &:visited {
-          text-decoration: none;
-        }
+      &:hover {
+        color: rgb(0, 132, 240);
+        text-decoration: underline;
       }
     }
   }
