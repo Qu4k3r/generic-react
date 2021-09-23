@@ -1,7 +1,8 @@
 .projectList {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
   font-size: 1.3rem;
   // flex-wrap: wrap;
@@ -9,10 +10,12 @@
   .projectCard {
     display: flex;
     justify-content: center;
-    box-shadow: 1px 1px 10px 2px rgb(164, 190, 212);
+    // box-shadow: 1px 1px 10px 2px rgb(164, 190, 212);
     border-radius: 0.75rem;
     margin: 0 3rem;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(56, 56, 56, 0.712);
+    margin: 1rem 0;
+    width: 75%;
 
     .imageContainer {
       display: flex;
@@ -20,7 +23,7 @@
       flex-grow: 1;
 
       img {
-        border-radius: 0.75rem;
+        border-radius: 0.75rem 0 0 0.75rem;
       }
     }
 
