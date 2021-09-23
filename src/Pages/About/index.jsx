@@ -19,6 +19,7 @@ export default function About() {
         <p>
           Atualmente, sou Desenvolvedor de Software Full Stack formado pela Trybe (curso livre).
           Previsão de término: Novembro de 2021.
+          Principais tecnologias: ReactJS, NodeJS, MongoDB, Express, MySQL e Python.
         </p>
 
         <p>
