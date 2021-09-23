@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import { ProjectProvider } from './Contexts';
 import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
 
 export default function App() {
   return (
@@ -16,6 +17,10 @@ export default function App() {
 
       <ProjectProvider>
         <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+
           <Route path="/projects">
             <Projects />
           </Route>

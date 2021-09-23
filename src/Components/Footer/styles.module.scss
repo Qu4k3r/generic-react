@@ -28,11 +28,16 @@
   .contact {
     display: flex;
     justify-content: space-between;
+    // background-color: rgb(255, 9, 9);
 
     a {
       color: aliceblue;
       text-decoration: none;
       margin: 0 0.5rem;
+
+      &:hover {
+        color: rgb(12, 219, 12);
+      }
     }
   }
 }

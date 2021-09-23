@@ -1,10 +1,17 @@
 import React from 'react';
+import Particles from 'react-particles-js';
 
 import styles from './styles.module.scss';
+
+import particlesJson from '../../Utils/particlesjs-config.json';
 
 export default function About() {
   return (
     <section className={styles.aboutContainer}>
+      <Particles
+        className="particles"
+        params={particlesJson}
+      />
 
       <div className={styles.about}>
         <h1>Um pouco sobre mim</h1>

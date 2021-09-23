@@ -13,7 +13,7 @@
     // box-shadow: 1px 1px 10px 2px rgb(164, 190, 212);
     border-radius: 0.75rem;
     margin: 0 3rem;
-    background-color: rgba(56, 56, 56, 0.712);
+    background-color: rgba(41, 41, 41, 0.712);
     margin: 1rem 0;
     width: 75%;
 
@@ -52,7 +52,8 @@
 
         button {
           padding: 0.75rem 1.3rem;
-          background-color: rgb(7, 70, 126);
+          // background-color: rgb(7, 70, 126);
+          background-color: rgb(40, 165, 55);
           border-radius: 0.4rem;
           border: none;
           cursor: pointer;
@@ -70,7 +71,8 @@
           }
 
           &:hover {
-            background-color: rgb(0, 132, 240);
+            // background-color: rgb(0, 132, 240);
+            background-color: rgb(33, 126, 33);
           }
         }
       }
