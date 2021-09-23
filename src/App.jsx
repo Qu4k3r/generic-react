@@ -2,9 +2,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import './App.scss';
-import Header from './components/Header';
+import Header from './Components/Header';
 import About from './Pages/About';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import { ProjectProvider } from './Contexts';
 import Projects from './Pages/Projects';
