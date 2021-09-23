@@ -10,12 +10,13 @@ module.exports = async () => {
     // const { projects } = response;
 
     return projects.map(({
-      images, url, displayName, summary,
+      images, url, displayName, summary, githubUrl,
     }) => ({
       images,
       url,
       displayName,
       summary,
+      githubUrl,
     }));
   } catch (error) {
     return error.message;
@@ -26,3 +27,4 @@ module.exports = async () => {
 // url: string
 // displayName: string
 // summary: string
+// githubUrl: string

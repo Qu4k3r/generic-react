@@ -5,13 +5,13 @@ const ProjectContext = createContext();
 
 export function ProjectProvider({ children }) {
   const [myProjetcts, setMyProjects] = useState([]);
-  const [isLoading, seIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   const context = {
     myProjetcts,
     setMyProjects,
     isLoading,
-    seIsLoading,
+    setIsLoading,
   };
 
   return (

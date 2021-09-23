@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
+import ProjectCard from '../../Components/ProjectCard';
 import gitConnectedApi from '../../Services/API';
 
 import styles from './styles.module.scss';
@@ -25,16 +26,12 @@ export default function Projects() {
 
   return (
     <section className={styles.projectContainer}>
-      <div>
+      <div className={styles.project}>
         <h1>Meus Projetos</h1>
-        {console.log(myProjects)}
         {isLoading ? (
           <h3>Carregando ...</h3>
         ) : (
-          <section>
-            <h3>Estamos em manutencao. Volte amanha!</h3>
-            {/* Aqui entra o Carousel e sai esse h3 */}
-          </section>
+          <ProjectCard projects={myProjects} />
         )}
       </div>
     </section>
