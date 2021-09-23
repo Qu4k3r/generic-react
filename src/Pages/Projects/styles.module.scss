@@ -1,0 +1,23 @@
+.projectContainer {
+  height: 100vh;
+  background: url('../../images/coding.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgb(130, 185, 233);
+    box-shadow: 1px 1px 10px 2px rgb(164, 190, 212);
+    position: absolute;
+    height: 55vh;
+    width: 100vw;
+    bottom: 20vh;
+    color: aliceblue;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}

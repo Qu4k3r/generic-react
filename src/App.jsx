@@ -6,21 +6,29 @@ import Header from './components/Header';
 import About from './Pages/About';
 import Footer from './components/Footer';
 import Home from './Pages/Home';
+import { ProjectProvider } from './Contexts';
+import Projects from './Pages/Projects';
 
 export default function App() {
   return (
     <main>
       <Header />
 
-      <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
+      <ProjectProvider>
+        <Switch>
+          <Route path="/projects">
+            <Projects />
+          </Route>
 
-        <Route exact path="/">
-          <Home />
-        </Route>
-      </Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </ProjectProvider>
 
       <section>
         <Footer />
